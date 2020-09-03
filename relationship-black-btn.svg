@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="relationship-black-btn" transform="translate(7030 230)">
+    <g id="networking" transform="translate(-7026 -226)">
+      <path id="Path_282" data-name="Path 282" d="M4.5,42.5H7.673V36.234H4.5V33.323H7.915a3.406,3.406,0,0,1,0-1.323H3.175v4.234H0V42.5H3.175V44H1.367v1.323H6.306V44H4.5Z" transform="translate(0 -30.589)"/>
+      <path id="Path_283" data-name="Path 283" d="M338.444,42.5V36.234h-3.175V32H330.53a3.406,3.406,0,0,1,0,1.323h3.416v2.911h-3.175V42.5h3.175V44h-1.808v1.323h4.939V44h-1.808V42.5Z" transform="translate(-315.954 -30.589)"/>
+      <path id="Path_284" data-name="Path 284" d="M172.5,122.53a3.406,3.406,0,0,1-1.323,0v8H168v6.262h3.175v1.5h-1.808v1.323h4.939v-1.323H172.5v-1.5h3.175v-6.262H172.5Z" transform="translate(-160.591 -117.127)"/>
+      <path id="Path_285" data-name="Path 285" d="M208.064,1.546a2.073,2.073,0,1,0,2-1.546A2.073,2.073,0,0,0,208.064,1.546Z" transform="translate(-198.824)"/>
+    </g>
+    <g id="Group_853" data-name="Group 853" transform="translate(-6650 -131)">
+      <g id="Group_839" data-name="Group 839" transform="translate(89 -3)">
+        <g id="Group_836" data-name="Group 836" transform="translate(68 -2)">
+          <g id="Group_834" data-name="Group 834" transform="translate(7225 47)">
+            <g id="Group_804" data-name="Group 804" transform="translate(0 23)">
+              <g id="Group_798" data-name="Group 798" transform="translate(0 -1)">
+                <rect id="Rectangle_220" data-name="Rectangle 220" width="30" height="30" transform="translate(-7762 -163)" fill="none"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
