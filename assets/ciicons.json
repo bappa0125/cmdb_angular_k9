@@ -1,0 +1,5 @@
+[
+    { "id": 1, "name": "icon1.png","type": "communication network", "url": "assets/icons/icon1.png" },
+    { "id": 2,"name": "icon2.png", "type": "it service","url": "assets/icons/icon2.png" },
+    { "id": 3, "name": "icon3.png","type":"software","url": "assets/icons/icon3.png" }
+]

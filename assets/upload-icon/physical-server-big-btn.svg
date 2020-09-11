@@ -1,0 +1,10 @@
+<svg id="physical-server-big-btn" xmlns="http://www.w3.org/2000/svg" width="41.755" height="41.755" viewBox="0 0 41.755 41.755">
+  <rect id="Rectangle_314" data-name="Rectangle 314" width="16" height="10" transform="translate(1.561 31)" fill="#abe4ff"/>
+  <rect id="Rectangle_315" data-name="Rectangle 315" width="17" height="10" transform="translate(23.561 31)" fill="#abe4ff"/>
+  <path id="Path_497" data-name="Path 497" d="M-6169.05-447.508l-2.95-3.937v-2.386l1.476-2.147,1.475-1.67,1.475-3.1,1.72-3.579,2.705-1.67h6.637l2.213,1.67.983.954h2.7l5.163,2.625v3.1h3.2l2.7,3.818v2.386l-1.475,3.937s-4.67-.119-6.146,0S-6169.05-447.508-6169.05-447.508Z" transform="translate(6176.772 468.386)" fill="#abe4ff"/>
+  <g id="cloud-computing" transform="translate(0 0)">
+    <path id="Path_494" data-name="Path 494" d="M60.035,421.953H69.9V424.4h-9.86Zm0,0" transform="translate(-55.139 -387.541)" fill="#1890cb"/>
+    <path id="Path_495" data-name="Path 495" d="M33.152,29.514v-4.9H22.1v-2.45H32.117A6.321,6.321,0,0,0,33.253,9.627a7.191,7.191,0,0,0-9.321-5.449A8.994,8.994,0,0,0,7.391,9.934,6.323,6.323,0,0,0,9.638,22.166H19.654v2.45H8.6v4.9H0V41.755H19.652V29.514h-8.6v-2.45H30.706v2.45H22.1V41.755H41.755V29.514ZM5.763,15.845a3.861,3.861,0,0,1,3.223-3.819l1.293-.219-.307-1.274A6.548,6.548,0,0,1,22.28,6.249l.543,1.175,1.142-.609A4.743,4.743,0,0,1,30.932,10.8l.049,1.164,1.165.008a3.874,3.874,0,0,1-.029,7.748H9.638a3.879,3.879,0,0,1-3.875-3.875ZM17.206,39.308H2.446V31.96H17.206Zm22.1,0H24.549V31.96H39.309Zm0,0" transform="translate(0 0)" fill="#1890cb"/>
+    <path id="Path_496" data-name="Path 496" d="M331.059,421.953h9.86V424.4h-9.86Zm0,0" transform="translate(-304.06 -387.541)" fill="#1890cb"/>
+  </g>
+</svg>

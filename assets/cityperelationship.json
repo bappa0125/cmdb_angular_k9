@@ -1,0 +1,23 @@
+[
+    { 
+        "id":1,
+        "sourceCItype": "backed up by",
+        "relationshipType": "My Sql Instance", 
+        "relatedCItype":"CI type",
+        "cardinality": "many to many"
+    },
+    { 
+        "id":2,
+        "sourceCItype": "backed up by", 
+        "relationshipType": "My Sql Instance", 
+        "relatedCItype":"CI type",
+        "cardinality": "many to one"
+    },
+    { 
+        "id":3,
+        "sourceCItype": "backed up by", 
+        "relationshipType": "My Sql Instance", 
+        "relatedCItype":"CI type",
+        "cardinality": "one to many"
+    }
+]

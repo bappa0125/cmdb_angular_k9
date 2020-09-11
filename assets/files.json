@@ -1,0 +1,19 @@
+{
+    "data": 
+    [
+        {
+            "label": "Documents",
+            "data": "Documents Folder",
+            "children": [{
+                    "label": "Work",
+                    "data": "Work Folder",
+                    "children": [{"label": "Expenses.doc", "data": "Expenses Document"}, {"label": "Resume.doc", "data": "Resume Document"}]
+                },
+                {
+                    "label": "Home",
+                    "data": "Home Folder",
+                    "children": [{"label": "Invoices.txt", "data": "Invoices for this month"}]
+                }]
+        }
+    ]
+}

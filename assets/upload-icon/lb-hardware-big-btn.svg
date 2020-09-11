@@ -1,0 +1,22 @@
+<svg id="lb-hardware-big-btn" xmlns="http://www.w3.org/2000/svg" width="41.754" height="41.754" viewBox="0 0 41.754 41.754">
+  <path id="Path_528" data-name="Path 528" d="M-5785.014-447.277l8.948-9.424h-5.488v-10.5h-6.681v10.5h-5.965Z" transform="translate(5805.891 468.154)" fill="#abe4ff"/>
+  <rect id="Rectangle_319" data-name="Rectangle 319" width="40" height="9" transform="translate(0.963 31)" fill="#abe4ff"/>
+  <path id="Path_527" data-name="Path 527" d="M-5802.75-440.57l7.157-11.93h24.755l7.158,11.93Z" transform="translate(5804.241 470.991)" fill="#abe4ff"/>
+  <g id="harddisk" transform="translate(0 0)">
+    <g id="Group_1176" data-name="Group 1176">
+      <g id="Group_1175" data-name="Group 1175">
+        <path id="Path_525" data-name="Path 525" d="M41.754,30.739a1.231,1.231,0,0,0-.174-.624L34.24,17.883a1.223,1.223,0,0,0-1.049-.594H26.277l5.251-5.251a1.224,1.224,0,0,0-.865-2.088H25.77V1.223A1.223,1.223,0,0,0,24.547,0h-7.34a1.223,1.223,0,0,0-1.223,1.223V9.949H11.091a1.224,1.224,0,0,0-.865,2.088l5.251,5.251H8.563a1.223,1.223,0,0,0-1.049.594L.174,30.116A1.232,1.232,0,0,0,0,30.745v7.34a3.674,3.674,0,0,0,3.67,3.67H38.085a3.674,3.674,0,0,0,3.67-3.67v-7.34S41.754,30.741,41.754,30.739ZM14.044,12.4h3.163a1.223,1.223,0,0,0,1.223-1.223V2.447h4.893v8.726A1.223,1.223,0,0,0,24.547,12.4H27.71l-6.833,6.833Zm-4.789,7.34h8.668l2.088,2.088a1.223,1.223,0,0,0,1.73,0l2.088-2.088H32.5l5.872,9.786H3.384ZM39.308,38.085a1.225,1.225,0,0,1-1.223,1.223H3.67a1.225,1.225,0,0,1-1.223-1.223V31.968H39.308Z" fill="#188fcb"/>
+      </g>
+    </g>
+    <g id="Group_1178" data-name="Group 1178" transform="translate(34.765 34.726)">
+      <g id="Group_1177" data-name="Group 1177" transform="translate(0 0)">
+        <circle id="Ellipse_93" data-name="Ellipse 93" cx="1" cy="1" r="1" transform="translate(0.199 0.274)" fill="#188fcb"/>
+      </g>
+    </g>
+    <g id="Group_1180" data-name="Group 1180" transform="translate(4.893 34.415)">
+      <g id="Group_1179" data-name="Group 1179">
+        <path id="Path_526" data-name="Path 526" d="M73.456,422H61.223a1.223,1.223,0,1,0,0,2.447H73.456a1.223,1.223,0,0,0,0-2.447Z" transform="translate(-60 -422)" fill="#188fcb"/>
+      </g>
+    </g>
+  </g>
+</svg>

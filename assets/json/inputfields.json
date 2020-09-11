@@ -1,0 +1,121 @@
+[
+
+    {
+ 
+       "name":"Single Line",
+ 
+       "fieldName":"",
+ 
+       "fieldKey":"",
+
+       "required":"",
+ 
+       "fieldType":"text",
+
+       "phValue":"",
+       "minValue":"",
+       "maxValue":"",
+       "description":"",
+       "fieldIcon":"assets/form-field/single-drag-button.svg",
+       "dragbtn": "assets/form-field/drag-btn.svg"
+ 
+    },
+ 
+    {
+ 
+       "name":"Multi Line",
+ 
+       "fieldName":"",
+ 
+       "fieldKey":"",
+ 
+       "required":"",
+ 
+       "fieldType":"text",
+ 
+       "phValue":"",
+       "minValue":"",
+       "maxValue":"",
+      
+       "description":"",
+ 
+       "multiline":true,
+       "fieldIcon":"assets/form-field/double-drag-btn.svg",
+       "dragbtn": "assets/form-field/drag-btn.svg"
+ 
+    },
+    {
+ 
+       "name":"Pick List",
+ 
+       "fieldName":"",
+ 
+       "fieldKey":"",
+ 
+       "required":"",
+ 
+       "fieldType":"select",
+       "options":[],
+
+       "description":"",
+       "fieldIcon":"assets/form-field/pick-list-btn.svg",
+       "dragbtn": "assets/form-field/drag-btn.svg"
+ 
+    }, {
+ 
+       "name":"Radio",
+ 
+       "fieldName":"",
+ 
+       "fieldKey":"",
+ 
+       "required":"",
+ 
+       "fieldType":"radio",
+ 
+       "placeholder":"",
+       "options":[],
+
+       "description":"",
+       "fieldIcon":"assets/form-field/radio-btn.svg",
+       "dragbtn": "assets/form-field/drag-btn.svg"
+      
+    },
+    {
+ 
+       "name":"Checkbox",
+ 
+       "fieldName":"",
+ 
+       "fieldKey":"",
+ 
+       "required":"",
+ 
+       "fieldType":"checkbox",
+      "options":[],
+       "description":"",
+       "fieldIcon":"assets/form-field/check-box-btn.svg",
+       "dragbtn": "assets/form-field/drag-btn.svg"
+  
+    }, {
+ 
+      "name":"Numeric",
+
+      "fieldName":"",
+
+      "fieldKey":"",
+
+      "required":"",
+
+      "fieldType":"number",
+
+      "phValue":"",
+      "minValue":"",
+      "maxValue":"",
+      "description":"",
+      "fieldIcon":"assets/form-field/single-drag-button.svg",
+      "dragbtn": "assets/form-field/drag-btn.svg"
+
+   }
+ 
+ ]

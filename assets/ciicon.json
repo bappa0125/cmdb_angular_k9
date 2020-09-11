@@ -1,0 +1,59 @@
+[
+  {
+      "type":"Communication Network",
+      "images":[ 
+          "assets/upload-icon/cmdb-big-btn.svg",
+          "assets/upload-icon/database-big-btn.svg",
+          "assets/upload-icon/db-hardware-big-btn.svg",
+          "assets/upload-icon/server-software-big-btn.svg",
+          "assets/upload-icon/middleware-big-btn.svg"
+         
+
+    ]
+
+      
+  },
+  {
+   "type":"IT  Services",
+   "images":[ 
+     "assets/upload-icon/network-big-btn.svg",
+     "assets/upload-icon/server-capacity-big-btn.svg",
+     "assets/upload-icon/load-balancing-big-btn.svg"
+
+      
+
+ ]
+
+   
+},
+{
+ "type":"Other Services",
+ "images":[ 
+   "assets/upload-icon/backend-service-big-btn.svg",
+   "assets/upload-icon/backup-application-big-btn.svg",
+   "assets/upload-icon/backup-restore-big-btn.svg",
+   "assets/upload-icon/business-application-big-btn.svg",
+   "assets/upload-icon/cluster-big-btn.svg",
+   "assets/upload-icon/customer-big-btn.svg",
+   "assets/upload-icon/data-center-big-btn.svg",
+   "assets/upload-icon/db-software-big-btn.svg",
+   "assets/upload-icon/enterprise-big-btn.svg",
+   "assets/upload-icon/ip-network-big-btn.svg",
+   "assets/upload-icon/lb-hardware-big-btn.svg",
+   "assets/upload-icon/lb-software-big-btn.svg",
+   "assets/upload-icon/location-big-btn.svg",
+   "assets/upload-icon/network-devices-big-btn.svg",
+   "assets/upload-icon/physical-server-big-btn.svg",
+   "assets/upload-icon/restore-application-big-btn.svg",
+   "assets/upload-icon/server-big-btn.svg",
+   "assets/upload-icon/storage-device-big-btn.svg",
+   "assets/upload-icon/virtual-server-big-btn.svg"
+
+    
+
+]
+
+ 
+}
+
+]

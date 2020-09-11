@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="help-btn" transform="translate(7561 141)">
+    <g id="Group_814" data-name="Group 814">
+      <g id="Group_810" data-name="Group 810" transform="translate(-64 -9)">
+        <g id="Group_809" data-name="Group 809" transform="translate(104 3)">
+          <g id="Group_807" data-name="Group 807" transform="translate(42 17)">
+            <g id="Group_805" data-name="Group 805" transform="translate(41 13)">
+              <g id="Group_801" data-name="Group 801" transform="translate(78 -2)">
+                <rect id="Rectangle_220" data-name="Rectangle 220" width="30" height="30" transform="translate(-7762 -163)" fill="none"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <path id="question-mark" d="M9.942,0a9.942,9.942,0,1,0,9.942,9.942A9.953,9.953,0,0,0,9.942,0Zm1.243,16.155H8.7V13.67h2.485Zm1.243-5.7L11.184,11.7v.728H8.7V11.184a1.243,1.243,0,0,1,.364-.879L10.67,8.7a1.77,1.77,0,0,0,.515-1.243,1.243,1.243,0,1,0-2.485,0V8.7H6.214V7.456a3.728,3.728,0,0,1,7.456,0,4.213,4.213,0,0,1-1.243,3Z" transform="translate(-7492 -127)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

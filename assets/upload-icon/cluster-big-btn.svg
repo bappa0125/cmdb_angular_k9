@@ -1,0 +1,11 @@
+<svg id="cluster-big-btn" xmlns="http://www.w3.org/2000/svg" width="44.279" height="35.601" viewBox="0 0 44.279 35.601">
+  <ellipse id="Ellipse_87" data-name="Ellipse 87" cx="4.175" cy="4.175" rx="4.175" ry="4.175" transform="translate(1.193 2.084)" fill="#abe4ff"/>
+  <ellipse id="Ellipse_90" data-name="Ellipse 90" cx="4.175" cy="4.175" rx="4.175" ry="4.175" transform="translate(1.193 14.014)" fill="#abe4ff"/>
+  <ellipse id="Ellipse_92" data-name="Ellipse 92" cx="4.175" cy="4.175" rx="4.175" ry="4.175" transform="translate(1.193 25.944)" fill="#abe4ff"/>
+  <ellipse id="Ellipse_88" data-name="Ellipse 88" cx="4.175" cy="4.175" rx="4.175" ry="4.175" transform="translate(34.597 2.084)" fill="#abe4ff"/>
+  <ellipse id="Ellipse_89" data-name="Ellipse 89" cx="4.175" cy="4.175" rx="4.175" ry="4.175" transform="translate(34.597 14.014)" fill="#abe4ff"/>
+  <ellipse id="Ellipse_91" data-name="Ellipse 91" cx="4.175" cy="4.175" rx="4.175" ry="4.175" transform="translate(34.597 25.944)" fill="#abe4ff"/>
+  <g id="scheme" transform="translate(0 0)">
+    <path id="Path_493" data-name="Path 493" d="M21.482,76.577H11.164a5.657,5.657,0,1,0,0,2.767H33.115a5.657,5.657,0,1,0,0-2.768H24.249v-9.2h8.867a5.656,5.656,0,1,0,0-2.768H24.249V55.056h8.866a5.656,5.656,0,1,0,0-2.767H11.164a5.656,5.656,0,1,0,0,2.767H21.481v9.549H11.164a5.656,5.656,0,1,0,0,2.768H21.481v9.2ZM5.669,80.85a2.889,2.889,0,1,1,2.9-2.889A2.9,2.9,0,0,1,5.669,80.85ZM38.61,75.072a2.889,2.889,0,1,1-2.9,2.889A2.9,2.9,0,0,1,38.61,75.072Zm0-11.972a2.889,2.889,0,1,1-2.9,2.889A2.9,2.9,0,0,1,38.61,63.1ZM5.669,56.561a2.889,2.889,0,1,1,2.9-2.888A2.9,2.9,0,0,1,5.669,56.561ZM38.61,50.783a2.889,2.889,0,1,1-2.9,2.889A2.9,2.9,0,0,1,38.61,50.783ZM5.669,68.877a2.889,2.889,0,1,1,2.9-2.888A2.9,2.9,0,0,1,5.669,68.877Z" transform="translate(0 -48.016)" fill="#1890cb"/>
+  </g>
+</svg>

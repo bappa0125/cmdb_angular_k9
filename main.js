@@ -773,15 +773,18 @@ class LoginComponent {
                             // this.commonSevice.updateHeaderShow(true);
                             this.router.navigate(['/users/main-citype-list']);
                         }
-                        else {
+                        else if (map.username === 'admin') {
                             // this.commonSevice.updateHeaderShow(true);
                             this.router.navigate(['/configuration/relationtype']);
                         }
+                        else {
+                            this.errormsg = "Invalid username or Password";
+                        }
                         // this.reloadPage();
                     }
-                    else {
-                        this.errormsg = "Invalid username or Password";
-                    }
+                    // else {
+                    //   this.errormsg = "Invalid username or Password";
+                    // }
                 }
             });
         });
@@ -979,7 +982,7 @@ class AuthService {
     isAuthenticated() {
         // const token = localStorage.getItem('token');
         const token = sessionStorage.getItem(TOKEN_KEY);
-        console.log(token);
+        // console.log(token);
         // Check whether the token is expired and return
         // true or false
         return !this.jwtHelper.isTokenExpired(token);
@@ -1140,6 +1143,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/page-not-found/page-not-found.component */ "./src/app/cmdb-common/components/page-not-found/page-not-found.component.ts");
 /* harmony import */ var primeng_menubar__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! primeng/menubar */ "./node_modules/primeng/__ivy_ngcc__/fesm2015/primeng-menubar.js");
 /* harmony import */ var primeng_panelmenu__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! primeng/panelmenu */ "./node_modules/primeng/__ivy_ngcc__/fesm2015/primeng-panelmenu.js");
+/* harmony import */ var _components_formcontrols_number_number_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/formcontrols/number/number.component */ "./src/app/cmdb-common/components/formcontrols/number/number.component.ts");
+
 
 
 
@@ -1173,7 +1178,8 @@ CMDBCommonModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineI
         _components_formcontrols_inputbox_inputbox_component__WEBPACK_IMPORTED_MODULE_9__["InputboxComponent"],
         _components_formcontrols_radio_radio_component__WEBPACK_IMPORTED_MODULE_10__["RadioComponent"],
         _components_formcontrols_selectbox_selectbox_component__WEBPACK_IMPORTED_MODULE_11__["SelectboxComponent"],
-        _components_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_12__["PageNotFoundComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
+        _components_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_12__["PageNotFoundComponent"],
+        _components_formcontrols_number_number_component__WEBPACK_IMPORTED_MODULE_15__["NumberComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
         _cmdb_common_routing_module__WEBPACK_IMPORTED_MODULE_2__["CMDBCommonRoutingModule"],
         primeng_menubar__WEBPACK_IMPORTED_MODULE_13__["MenubarModule"],
         primeng_panelmenu__WEBPACK_IMPORTED_MODULE_14__["PanelMenuModule"]], exports: [_cmdb_common_component__WEBPACK_IMPORTED_MODULE_3__["CMDBCommonComponent"], _components_header_header_component__WEBPACK_IMPORTED_MODULE_4__["HeaderComponent"], _components_sidebar_sidebar_component__WEBPACK_IMPORTED_MODULE_5__["SidebarComponent"], _components_loader_loader_component__WEBPACK_IMPORTED_MODULE_6__["LoaderComponent"], _components_toast_toast_component__WEBPACK_IMPORTED_MODULE_7__["ToastComponent"],
@@ -1181,6 +1187,7 @@ CMDBCommonModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineI
         _components_formcontrols_inputbox_inputbox_component__WEBPACK_IMPORTED_MODULE_9__["InputboxComponent"],
         _components_formcontrols_radio_radio_component__WEBPACK_IMPORTED_MODULE_10__["RadioComponent"],
         _components_formcontrols_selectbox_selectbox_component__WEBPACK_IMPORTED_MODULE_11__["SelectboxComponent"],
+        _components_formcontrols_number_number_component__WEBPACK_IMPORTED_MODULE_15__["NumberComponent"],
         _components_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_12__["PageNotFoundComponent"],
         _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
         _cmdb_common_routing_module__WEBPACK_IMPORTED_MODULE_2__["CMDBCommonRoutingModule"],
@@ -1194,7 +1201,8 @@ CMDBCommonModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineI
                     _components_formcontrols_inputbox_inputbox_component__WEBPACK_IMPORTED_MODULE_9__["InputboxComponent"],
                     _components_formcontrols_radio_radio_component__WEBPACK_IMPORTED_MODULE_10__["RadioComponent"],
                     _components_formcontrols_selectbox_selectbox_component__WEBPACK_IMPORTED_MODULE_11__["SelectboxComponent"],
-                    _components_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_12__["PageNotFoundComponent"]],
+                    _components_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_12__["PageNotFoundComponent"],
+                    _components_formcontrols_number_number_component__WEBPACK_IMPORTED_MODULE_15__["NumberComponent"]],
                 imports: [
                     _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
                     _cmdb_common_routing_module__WEBPACK_IMPORTED_MODULE_2__["CMDBCommonRoutingModule"],
@@ -1206,6 +1214,7 @@ CMDBCommonModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineI
                     _components_formcontrols_inputbox_inputbox_component__WEBPACK_IMPORTED_MODULE_9__["InputboxComponent"],
                     _components_formcontrols_radio_radio_component__WEBPACK_IMPORTED_MODULE_10__["RadioComponent"],
                     _components_formcontrols_selectbox_selectbox_component__WEBPACK_IMPORTED_MODULE_11__["SelectboxComponent"],
+                    _components_formcontrols_number_number_component__WEBPACK_IMPORTED_MODULE_15__["NumberComponent"],
                     _components_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_12__["PageNotFoundComponent"],
                     _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
                     _cmdb_common_routing_module__WEBPACK_IMPORTED_MODULE_2__["CMDBCommonRoutingModule"],
@@ -1419,6 +1428,50 @@ InputboxComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
 
 /***/ }),
 
+/***/ "./src/app/cmdb-common/components/formcontrols/number/number.component.ts":
+/*!********************************************************************************!*\
+  !*** ./src/app/cmdb-common/components/formcontrols/number/number.component.ts ***!
+  \********************************************************************************/
+/*! exports provided: NumberComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NumberComponent", function() { return NumberComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+
+class NumberComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+NumberComponent.ɵfac = function NumberComponent_Factory(t) { return new (t || NumberComponent)(); };
+NumberComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NumberComponent, selectors: [["app-number"]], inputs: { item: "item" }, decls: 3, vars: 7, consts: [[1, "lbl-color"], ["readonly", "", 1, "form-control", 3, "min", "max", "type", "placeholder", "id", "name"]], template: function NumberComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "label", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "input", 1);
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.item.fieldName);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("min", ctx.item.minValue)("max", ctx.item.maxValue)("type", ctx.item.fieldType)("placeholder", ctx.item.phValue)("id", ctx.item.fieldKey)("name", ctx.item.fieldKey);
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NtZGItY29tbW9uL2NvbXBvbmVudHMvZm9ybWNvbnRyb2xzL251bWJlci9udW1iZXIuY29tcG9uZW50LmNzcyJ9 */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NumberComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-number',
+                templateUrl: './number.component.html',
+                styleUrls: ['./number.component.css']
+            }]
+    }], function () { return []; }, { item: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }] }); })();
+
+
+/***/ }),
+
 /***/ "./src/app/cmdb-common/components/formcontrols/radio/radio.component.ts":
 /*!******************************************************************************!*\
   !*** ./src/app/cmdb-common/components/formcontrols/radio/radio.component.ts ***!
@@ -1616,9 +1669,9 @@ class HeaderComponent {
         //     console.log(data);
         //   });
         var user = this.tokenStorage.getUser();
-        console.log(user);
+        // console.log(user);
         this.checkLogin = user.username;
-        console.log(this.checkLogin);
+        // console.log(this.checkLogin);
     }
 }
 HeaderComponent.ɵfac = function HeaderComponent_Factory(t) { return new (t || HeaderComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_base_services_auth_token_storage_service__WEBPACK_IMPORTED_MODULE_1__["TokenStorageService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_cmdb_common_services_common_service__WEBPACK_IMPORTED_MODULE_2__["CommonService"])); };
@@ -1799,9 +1852,9 @@ class SidebarComponent {
         //     console.log(data);
         //   });
         var user = this.tokenStorage.getUser();
-        console.log(user);
+        // console.log(user);
         this.checkLogin = user.id;
-        console.log(this.checkLogin);
+        // console.log(this.checkLogin);
         if (this.checkLogin === 2) {
             this.user = [
                 {
@@ -2019,9 +2072,24 @@ class CommonService {
         this.ciRelationshipTable = new rxjs__WEBPACK_IMPORTED_MODULE_2__["BehaviorSubject"]('');
         this.relationshipTable = this.ciRelationshipTable.asObservable();
         this.ciRelationshipDiagram = new rxjs__WEBPACK_IMPORTED_MODULE_2__["BehaviorSubject"]('');
-        this.relationshipDiagram = this.ciRelationshipTable.asObservable();
+        this.relationshipDiagram = this.ciRelationshipDiagram.asObservable();
+        this.CiSuggestedNew = new rxjs__WEBPACK_IMPORTED_MODULE_2__["BehaviorSubject"]('');
+        this.SuggestedListNew = this.CiSuggestedNew.asObservable();
         this.ciDynamicData = new rxjs__WEBPACK_IMPORTED_MODULE_2__["BehaviorSubject"]('');
         this.ciDynamicFieldList = this.ciDynamicData.asObservable();
+        /* Service type Implementation */
+        this.siChildData = new rxjs__WEBPACK_IMPORTED_MODULE_2__["BehaviorSubject"]('');
+        this.SIchildDataList = this.siChildData.asObservable();
+        this.siDynamicData = new rxjs__WEBPACK_IMPORTED_MODULE_2__["BehaviorSubject"]('');
+        this.siDynamicFieldList = this.siDynamicData.asObservable();
+        this.SisuggestedlistId = new rxjs__WEBPACK_IMPORTED_MODULE_2__["BehaviorSubject"]('');
+        this.suggestedlistIdservicelist = this.SisuggestedlistId.asObservable();
+        this.servicemapId = new rxjs__WEBPACK_IMPORTED_MODULE_2__["BehaviorSubject"]('');
+        this.servicemapitemId = this.servicemapId.asObservable();
+        this.mapSiListEdit = new rxjs__WEBPACK_IMPORTED_MODULE_2__["BehaviorSubject"]('');
+        this.mapsiListnew = this.mapSiListEdit.asObservable();
+        this.mapSourceSI = new rxjs__WEBPACK_IMPORTED_MODULE_2__["BehaviorSubject"]('');
+        this.sourceSIName = this.mapSourceSI.asObservable();
         this.router.events.subscribe(event => {
             if (event instanceof _angular_router__WEBPACK_IMPORTED_MODULE_1__["NavigationEnd"]) {
                 this.checkPage(event);
@@ -2045,7 +2113,7 @@ class CommonService {
     }
     checkPage(event) {
         const urls = (event.url + '').split('/');
-        console.log("url ", urls);
+        // console.log("url ",urls);
         if (urls.length > 2) {
             this.menuShow.next(true);
         }
@@ -2072,16 +2140,36 @@ class CommonService {
     }
     // update
     updateCIid(data) {
-        console.log(data);
+        // console.log(data);
         this.suggestedId.next(data);
     }
     updateRelationshipTable(data) {
-        console.log(data);
         this.ciRelationshipTable.next(data);
     }
     updateRelationshipDiagram(data) {
-        console.log(data);
         this.ciRelationshipDiagram.next(data);
+    }
+    newSuggestedList(data) {
+        this.CiSuggestedNew.next(data);
+    }
+    updateSIchildData(data) {
+        this.siChildData.next(data);
+    }
+    updateSIDynamicFieldinfo(data) {
+        // console.log(data);
+        this.siDynamicData.next(data);
+    }
+    updateSISuggesttedData(data) {
+        this.SisuggestedlistId.next(data);
+    }
+    updateMapServiceID(data) {
+        this.servicemapId.next(data);
+    }
+    updateMapServicelist(data) {
+        this.mapSiListEdit.next(data);
+    }
+    updateSourceSiName(data) {
+        this.mapSourceSI.next(data);
     }
 }
 CommonService.ɵfac = function CommonService_Factory(t) { return new (t || CommonService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"])); };
@@ -2508,7 +2596,7 @@ __webpack_require__.r(__webpack_exports__);
 const environment = {
     production: false,
 };
-const newUrl = '/cmdb/';
+const newUrl = 'http://10.100.113.111:8095/cmdb/';
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
@@ -2563,7 +2651,7 @@ const configUrl = {
     deleteMapCIAPI: 'serviceTypeCI/delete/',
     saveJsonSIDetail: 'serviceTypeFields/saveServiceTypeFields',
     getFormSIParentJSon: 'serviceTypeFields/getServiceTypeFields',
-    /* User Module API */
+    /* User Module API CI*/
     getcityplistviewuser: 'ciType/CIList',
     getCIdetailsusers: 'ciType/getCITypeImpl?id=',
     getCIData: 'ciType/ciForCITypeList?id=',
@@ -2578,7 +2666,23 @@ const configUrl = {
     getCIDynamicField: 'ciDetail/ciFields?ciTypeId=',
     saveCIdetails: 'ciDetail/save',
     getRelationshipMap: 'ciRelationship/showRelationalMap?ciMappingId=',
-    getCiDetails: 'ciTypeFields/ciAndciListFromDynamicTable?id='
+    getCiDetails: 'ciTypeFields/ciAndciListFromDynamicTable?id=',
+    saveCIForm: 'ciType/saveCIForm',
+    /* User Module API Service Type */
+    getserviceTypeListviewUser: 'serviceType/serviceTypes',
+    getSIData: 'serviceType/siForSiTypeList?id=',
+    createSI: 'serviceType/saveServiceItem',
+    deleteSIList: 'serviceDetail/deleteServiceItem/',
+    getSIdynamicField: 'serviceType/serviceTypeFields?serviceTypeId=',
+    saveServiceForm: 'serviceType/saveServiceItemForm',
+    saveSIDetails: 'serviceDetail/save',
+    getSiDetails: 'serviceDetail/serviceTypeFields?id=',
+    getSuggestedMapSi: 'mapCI/getSuggestedCfgType?serviceTypeId=',
+    getDestinationMapSi: 'mapCI/getDestinationCI?ciTypeId=',
+    deletemapSiList: 'mapCI/deleteMapCI/',
+    getMapsiList: 'mapCI/getMapCIList?serviceItemId=',
+    addMapSiList: 'mapCI/addMapCI',
+    getbusinessView: 'mapCI/showBusinessView?siTypeId='
 };
 
 
@@ -2617,7 +2721,7 @@ _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__["platformBrowser"]().boot
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\workspace_eclipse\CMDB_Angular\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\HTC\Angular_Cmdb\CMDB_Angular\src\main.ts */"./src/main.ts");
 
 
 /***/ })

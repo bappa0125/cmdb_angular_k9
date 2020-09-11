@@ -1,0 +1,36 @@
+
+{
+
+	"data": [{
+
+			"RelationshipName": "Virtualizes",
+
+			"InverseRelationshipName": "Virtualized by",
+
+			"Description": "Relationship between items that virtualizes other it"
+
+		},
+
+		{
+
+			"RelationshipName": "Virtualizes",
+
+			"InverseRelationshipName": "Virtualized by",
+
+			"Description": "Relationship between items that virtualizes other it"
+
+		},
+
+		{
+
+			"RelationshipName": "Virtualizes",
+
+			"InverseRelationshipName": "Virtualized by",
+
+			"Description": "Relationship between items that virtualizes other it"
+
+		}
+
+	]
+
+}

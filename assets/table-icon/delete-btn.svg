@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="delete-btn" transform="translate(7357 141)">
+    <g id="Group_821" data-name="Group 821" transform="translate(-34 -26)">
+      <g id="Group_820" data-name="Group 820" transform="translate(32 5)">
+        <g id="Group_817" data-name="Group 817" transform="translate(165 21)">
+          <g id="Group_812" data-name="Group 812" transform="translate(-40)">
+            <g id="Group_811" data-name="Group 811" transform="translate(17 -9)">
+              <g id="Group_809" data-name="Group 809" transform="translate(104 3)">
+                <g id="Group_807" data-name="Group 807" transform="translate(42 17)">
+                  <g id="Group_805" data-name="Group 805" transform="translate(41 13)">
+                    <g id="Group_801" data-name="Group 801" transform="translate(78 -2)">
+                      <rect id="Rectangle_220" data-name="Rectangle 220" width="30" height="30" transform="translate(-7762 -163)" fill="none"/>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_819" data-name="Group 819" transform="translate(-7314 -107)">
+        <g id="delete">
+          <path id="Path_33" data-name="Path 33" d="M58.611,1.806H56.128V1.355A1.355,1.355,0,0,0,54.773,0H52.967a1.355,1.355,0,0,0-1.355,1.355v.452H49.129A1.129,1.129,0,0,0,48,2.935v.9a.452.452,0,0,0,.452.452H59.288a.452.452,0,0,0,.452-.452v-.9A1.129,1.129,0,0,0,58.611,1.806Zm-6.1-.452A.452.452,0,0,1,52.967.9h1.806a.452.452,0,0,1,.452.452v.452H52.515Z" transform="translate(-48)" fill="#ff2121"/>
+          <path id="Path_34" data-name="Path 34" d="M73.505,184a.141.141,0,0,0-.141.148l.372,7.818a1.353,1.353,0,0,0,1.353,1.29h6.857a1.353,1.353,0,0,0,1.353-1.29l.373-7.818a.141.141,0,0,0-.141-.148Zm6.819,1.129a.452.452,0,0,1,.9,0V191a.452.452,0,1,1-.9,0Zm-2.258,0a.452.452,0,0,1,.9,0V191a.452.452,0,1,1-.9,0Zm-2.258,0a.452.452,0,0,1,.9,0V191a.452.452,0,1,1-.9,0Z" transform="translate(-72.648 -178.807)" fill="#ff2121"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

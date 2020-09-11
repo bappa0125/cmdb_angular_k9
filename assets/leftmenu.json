@@ -1,0 +1,26 @@
+ [
+    {
+
+      label: 'Dashboard',
+      icon: 'pi pi-fw pi-th-large',
+    },
+    {
+      label: 'Configuration',
+      icon: 'pi pi-fw pi-cog',
+      items: [{
+        label: 'Relationship Type',
+        routerLink: ['configuration/relationtype'],
+        routerLinkActiveOptions: { exact: true }
+      },
+      {
+        label: 'CI Type',
+        routerLink: ['configuration/citypelist'],
+        routerLinkActiveOptions: { exact: true }
+      }
+      ]
+    }, {
+
+      label: 'Report',
+      icon: 'pi pi-fw pi-file-o'
+    }
+  ];

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="radio-btn" transform="translate(7030 204)">
+    <circle id="Ellipse_86" data-name="Ellipse 86" cx="7" cy="7" r="7" transform="translate(-7022 -196)" fill="#f2f7ff"/>
+    <g id="new-add-drag-btn" transform="translate(-15508 -62)">
+      <g id="plus" transform="translate(8486 -134)">
+        <g id="Group_731" data-name="Group 731" transform="translate(0)">
+          <g id="Group_730" data-name="Group 730" transform="translate(0)">
+            <path id="Path_401" data-name="Path 401" d="M7,0a7,7,0,1,0,7,7A7.008,7.008,0,0,0,7,0ZM7,12.916A5.916,5.916,0,1,1,12.916,7,5.922,5.922,0,0,1,7,12.916Z" transform="translate(0)" fill="#1fa5e6"/>
+          </g>
+        </g>
+      </g>
+      <g id="mail-drag-btn" transform="translate(43 -20)">
+        <g id="calender-drag-btn" transform="translate(23 0)">
+          <g id="numeric-drag-btn" transform="translate(32)">
+            <g id="date-picker-drag-btn" transform="translate(62 -1)">
+              <g id="double-drag-btn" transform="translate(39 -2)">
+                <g id="single-drag-button" transform="translate(38 -1)">
+                  <g id="drop-field-btn" transform="translate(-70 12)">
+                    <g id="Group_867" data-name="Group 867" transform="translate(8406 -52)">
+                      <g id="Group_852" data-name="Group 852" transform="translate(19 20)">
+                        <g id="Group_850" data-name="Group 850" transform="translate(105 -13)">
+                          <g id="Group_848" data-name="Group 848" transform="translate(64 -3)">
+                            <g id="Group_844" data-name="Group 844" transform="translate(35 1)">
+                              <g id="Group_842" data-name="Group 842" transform="translate(62 16)">
+                                <g id="Group_839" data-name="Group 839" transform="translate(89 -3)">
+                                  <g id="Group_836" data-name="Group 836" transform="translate(68 -2)">
+                                    <g id="Group_834" data-name="Group 834" transform="translate(7225 47)">
+                                      <g id="Group_804" data-name="Group 804" transform="translate(0 23)">
+                                        <g id="Group_798" data-name="Group 798" transform="translate(0 -1)">
+                                          <rect id="Rectangle_220" data-name="Rectangle 220" width="30" height="30" transform="translate(-7762 -163)" fill="none"/>
+                                        </g>
+                                      </g>
+                                    </g>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <circle id="Ellipse_85" data-name="Ellipse 85" cx="4" cy="4" r="4" transform="translate(-7019 -193)" fill="#1fa5e6"/>
+  </g>
+</svg>
