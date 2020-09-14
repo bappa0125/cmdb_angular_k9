@@ -2596,7 +2596,7 @@ __webpack_require__.r(__webpack_exports__);
 const environment = {
     production: false,
 };
-const newUrl = 'http://10.100.113.111:8095/cmdb/';
+const newUrl = 'http://10.108.21.249:8095/cmdb/';
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
