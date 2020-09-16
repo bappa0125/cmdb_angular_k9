@@ -2599,7 +2599,7 @@ const environment = {
 //export const newUrl = 'http://cmdb-k8-newjarservice/cmdb/';
 //export const newUrl = 'http://ec2-13-233-201-28.ap-south-1.compute.amazonaws.com:30004/cmdb/';
 // does not work export const newUrl = 'http://ip-172-31-255-8.ap-south-1.compute.internal:30004/cmdb/';
-const newUrl = 'http://172.31.14.23/cmdb/';
+const newUrl = 'http://172.31.14.23:30968/cmdb/';
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
